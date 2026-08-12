@@ -9,6 +9,16 @@ Creating different .js files to practice coding different data structures in jav
 | 3 | Open VS Code → **File > Open Folder** → Find the `Java-Practice` folder on your Desktop |
 | 4 | Click the **+ file** icon under "Explorer" (top left) and name the file `Array-ArrayList.js` (`.js` creates a JavaScript file — you can code in JavaScript or Java inside here) |
 
+## Push Changes from VS code to Github Main 
+| Step | Command / Action | What It Does | Beginner Details |
+|------|-----------------|--------------|------------------|
+| 1 | Save your file | Saves the code you just wrote to your laptop | Press `Cmd + S` (Mac). You'll see the white dot on the file tab disappear — that means it's saved! |
+| 2 | Open the Terminal | Opens a command line inside VS Code where you type Git commands | Go to the top menu bar → click **Terminal** → click **New Terminal**. A black/dark box will appear at the bottom of VS Code. This is where you'll type the next commands. |
+| 3 | `git add .` | Tells Git "hey, I want to include these changes" | Type `git add .` and press **Enter** in the terminal. The `.` means "all files I changed." Nothing will visually happen and that's okay — no news is good news! |
+| 4 | `git commit -m "your message"` | Saves a snapshot of your changes with a short description | Type `git commit -m "added Array-ArrayList practice"` and press **Enter** in the terminal. The message in quotes is a note to yourself about what you changed. Always put your message inside the quotation marks `" "`. |
+| 5 | `git push origin main` | Uploads your saved changes from your laptop to GitHub online | Type `git push origin main` and press **Enter** in the terminal. This sends everything to your GitHub repo so it's live on the internet. |
+| 6 | Check GitHub | Confirm your changes are online | Open your browser → go to `https://github.com/Parshvibalu/Java-Practice` → refresh the page. You should see your new file or changes! |
+
 ## 📝 NeetCode Steps
 
 ### Step 1:
